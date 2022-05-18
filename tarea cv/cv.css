@@ -1,0 +1,36 @@
+p {
+    color: navy;
+    text-decoration: overline;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-style: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    text-decoration: overline;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-align: center;
+}
+
+img {
+    height: 500px;
+    margin-left: 40%;
+}
+
+ul {
+    text-decoration: overline;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-align: center;
+}
+
+ol {
+    text-decoration: overline;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-align: center;
+}
