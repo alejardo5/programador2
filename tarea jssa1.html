@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 1</title>
+    <link rel="stylesheet" href="estilo cajas.css">
+   
+
+</head>
+
+<body>
+    <div class="caja1" id="c"></div>
+
+    <div class="caja2" id="c2"></div>
+
+    <div class="caja3" id="c3"></div>
+
+    </div>
+    <script>
+        var c = document.getElementById('c');
+        c.addEventListener('click', function onClick(event) { document.body.style.backgroundColor = 'red'; })
+        var c2 = document.getElementById('c2');
+        c2.addEventListener('click', function onClick(event) { document.body.style.backgroundColor = 'blue'; })
+        var c3 = document.getElementById('c3');
+        c3.addEventListener('click', function onClick(event) { document.body.style.backgroundColor = 'yellow'; })
+    </script>
+</body>
+
+</html>
